@@ -58,7 +58,7 @@ public class GroovyLabelAssignmentJenkinsRule extends JenkinsRule
     }
     
     @Before
-    protected void before() throws Throwable {
+    public void before() throws Throwable {
         super.before();
     }
     
@@ -93,7 +93,7 @@ public class GroovyLabelAssignmentJenkinsRule extends JenkinsRule
     }
     
     @Override
-    protected void after()
+    public void after() throws Exception
     {
         try
         {
